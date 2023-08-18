@@ -1,0 +1,5 @@
+/home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/emile/Documents/Code/micro_ros_test -B /home/emile/Documents/Code/micro_ros_test/cmake-build-debug
+-- Minimal optimization, debug info included
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/emile/Documents/Code/micro_ros_test/cmake-build-debug

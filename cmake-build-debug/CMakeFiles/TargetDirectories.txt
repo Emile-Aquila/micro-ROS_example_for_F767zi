@@ -1,0 +1,3 @@
+/home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/micro_ros_test.elf.dir
+/home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
