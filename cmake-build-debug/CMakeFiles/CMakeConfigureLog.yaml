@@ -115,8 +115,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qBQciR"
-      binary: "/home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qBQciR"
+      source: "/home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AAXxE9"
+      binary: "/home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AAXxE9"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -125,12 +125,12 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: /home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qBQciR
+        Change Dir: /home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AAXxE9
         
-        Run Build Command(s):/home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ddaf9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ddaf9.dir/build.make CMakeFiles/cmTC_ddaf9.dir/build
-        gmake[1]: Entering directory '/home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qBQciR'
-        Building C object CMakeFiles/cmTC_ddaf9.dir/CMakeCCompilerABI.c.obj
-        /usr/bin/arm-none-eabi-gcc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_ddaf9.dir/CMakeCCompilerABI.c.obj -c /home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        Run Build Command(s):/home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8fc7e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8fc7e.dir/build.make CMakeFiles/cmTC_8fc7e.dir/build
+        gmake[1]: Entering directory '/home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AAXxE9'
+        Building C object CMakeFiles/cmTC_8fc7e.dir/CMakeCCompilerABI.c.obj
+        /usr/bin/arm-none-eabi-gcc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_8fc7e.dir/CMakeCCompilerABI.c.obj -c /home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/arm-none-eabi-gcc
         Target: arm-none-eabi
@@ -138,8 +138,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 10.3.1 20210621 (release) (15:10.3-2021.07-4) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_ddaf9.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
-         /usr/lib/gcc/arm-none-eabi/10.3.1/cc1 -quiet -v -D__USES_INITFINI__ /home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_ddaf9.dir/CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o /tmp/ccaLS67v.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8fc7e.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+         /usr/lib/gcc/arm-none-eabi/10.3.1/cc1 -quiet -v -D__USES_INITFINI__ /home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_8fc7e.dir/CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o /tmp/ccqBuJgv.s
         GNU C17 (15:10.3-2021.07-4) version 10.3.1 20210621 (release) (arm-none-eabi)
         	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -156,18 +156,18 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 4cf7574ae54eb0935abb4a8c56f8bcfe
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_ddaf9.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
-         /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_ddaf9.dir/CMakeCCompilerABI.c.obj /tmp/ccaLS67v.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8fc7e.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+         /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_8fc7e.dir/CMakeCCompilerABI.c.obj /tmp/ccqBuJgv.s
         GNU assembler version 2.38 (arm-none-eabi) using BFD version (2.38-3ubuntu1+15build1) 2.38
         COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/
         LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_ddaf9.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
-        Linking C static library libcmTC_ddaf9.a
-        /home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -P CMakeFiles/cmTC_ddaf9.dir/cmake_clean_target.cmake
-        /home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddaf9.dir/link.txt --verbose=1
-        arm-none-eabi-ar qc libcmTC_ddaf9.a CMakeFiles/cmTC_ddaf9.dir/CMakeCCompilerABI.c.obj
-        /usr/bin/arm-none-eabi-ranlib libcmTC_ddaf9.a
-        gmake[1]: Leaving directory '/home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qBQciR'
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8fc7e.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+        Linking C static library libcmTC_8fc7e.a
+        /home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -P CMakeFiles/cmTC_8fc7e.dir/cmake_clean_target.cmake
+        /home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fc7e.dir/link.txt --verbose=1
+        arm-none-eabi-ar qc libcmTC_8fc7e.a CMakeFiles/cmTC_8fc7e.dir/CMakeCCompilerABI.c.obj
+        /usr/bin/arm-none-eabi-ranlib libcmTC_8fc7e.a
+        gmake[1]: Leaving directory '/home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AAXxE9'
         
       exitCode: 0
   -
@@ -199,12 +199,12 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: /home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qBQciR]
+        ignore line: [Change Dir: /home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AAXxE9]
         ignore line: []
-        ignore line: [Run Build Command(s):/home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ddaf9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ddaf9.dir/build.make CMakeFiles/cmTC_ddaf9.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qBQciR']
-        ignore line: [Building C object CMakeFiles/cmTC_ddaf9.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [/usr/bin/arm-none-eabi-gcc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_ddaf9.dir/CMakeCCompilerABI.c.obj -c /home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s):/home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8fc7e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8fc7e.dir/build.make CMakeFiles/cmTC_8fc7e.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AAXxE9']
+        ignore line: [Building C object CMakeFiles/cmTC_8fc7e.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [/usr/bin/arm-none-eabi-gcc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_8fc7e.dir/CMakeCCompilerABI.c.obj -c /home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/arm-none-eabi-gcc]
         ignore line: [Target: arm-none-eabi]
@@ -212,8 +212,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 10.3.1 20210621 (release) (15:10.3-2021.07-4) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_ddaf9.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-        ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/cc1 -quiet -v -D__USES_INITFINI__ /home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_ddaf9.dir/CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o /tmp/ccaLS67v.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8fc7e.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/cc1 -quiet -v -D__USES_INITFINI__ /home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_8fc7e.dir/CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o /tmp/ccqBuJgv.s]
         ignore line: [GNU C17 (15:10.3-2021.07-4) version 10.3.1 20210621 (release) (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -230,18 +230,18 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 4cf7574ae54eb0935abb4a8c56f8bcfe]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_ddaf9.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-        ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_ddaf9.dir/CMakeCCompilerABI.c.obj /tmp/ccaLS67v.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8fc7e.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_8fc7e.dir/CMakeCCompilerABI.c.obj /tmp/ccqBuJgv.s]
         ignore line: [GNU assembler version 2.38 (arm-none-eabi) using BFD version (2.38-3ubuntu1+15build1) 2.38]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_ddaf9.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-        ignore line: [Linking C static library libcmTC_ddaf9.a]
-        ignore line: [/home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -P CMakeFiles/cmTC_ddaf9.dir/cmake_clean_target.cmake]
-        ignore line: [/home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddaf9.dir/link.txt --verbose=1]
-        ignore line: [arm-none-eabi-ar qc libcmTC_ddaf9.a CMakeFiles/cmTC_ddaf9.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [/usr/bin/arm-none-eabi-ranlib libcmTC_ddaf9.a]
-        ignore line: [gmake[1]: Leaving directory '/home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qBQciR']
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8fc7e.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+        ignore line: [Linking C static library libcmTC_8fc7e.a]
+        ignore line: [/home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -P CMakeFiles/cmTC_8fc7e.dir/cmake_clean_target.cmake]
+        ignore line: [/home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fc7e.dir/link.txt --verbose=1]
+        ignore line: [arm-none-eabi-ar qc libcmTC_8fc7e.a CMakeFiles/cmTC_8fc7e.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [/usr/bin/arm-none-eabi-ranlib libcmTC_8fc7e.a]
+        ignore line: [gmake[1]: Leaving directory '/home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AAXxE9']
         ignore line: []
         ignore line: []
         implicit libs: []
@@ -259,8 +259,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jeOovi"
-      binary: "/home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jeOovi"
+      source: "/home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fzDldz"
+      binary: "/home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fzDldz"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -269,12 +269,12 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: /home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jeOovi
+        Change Dir: /home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fzDldz
         
-        Run Build Command(s):/home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_009ee/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_009ee.dir/build.make CMakeFiles/cmTC_009ee.dir/build
-        gmake[1]: Entering directory '/home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jeOovi'
-        Building CXX object CMakeFiles/cmTC_009ee.dir/CMakeCXXCompilerABI.cpp.obj
-        /usr/bin/arm-none-eabi-g++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_009ee.dir/CMakeCXXCompilerABI.cpp.obj -c /home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s):/home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_06187/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_06187.dir/build.make CMakeFiles/cmTC_06187.dir/build
+        gmake[1]: Entering directory '/home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fzDldz'
+        Building CXX object CMakeFiles/cmTC_06187.dir/CMakeCXXCompilerABI.cpp.obj
+        /usr/bin/arm-none-eabi-g++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_06187.dir/CMakeCXXCompilerABI.cpp.obj -c /home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/arm-none-eabi-g++
         Target: arm-none-eabi
@@ -282,8 +282,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 10.3.1 20210621 (release) (15:10.3-2021.07-4) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_009ee.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
-         /usr/lib/gcc/arm-none-eabi/10.3.1/cc1plus -quiet -v -D__USES_INITFINI__ /home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_009ee.dir/CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o /tmp/ccvje0wW.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_06187.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+         /usr/lib/gcc/arm-none-eabi/10.3.1/cc1plus -quiet -v -D__USES_INITFINI__ /home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_06187.dir/CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o /tmp/ccVVZFGr.s
         GNU C++14 (15:10.3-2021.07-4) version 10.3.1 20210621 (release) (arm-none-eabi)
         	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -303,18 +303,18 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 4f994585a8ca8864fa1f4d2fb208a0ba
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_009ee.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
-         /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_009ee.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccvje0wW.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_06187.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+         /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_06187.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccVVZFGr.s
         GNU assembler version 2.38 (arm-none-eabi) using BFD version (2.38-3ubuntu1+15build1) 2.38
         COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/
         LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_009ee.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
-        Linking CXX static library libcmTC_009ee.a
-        /home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -P CMakeFiles/cmTC_009ee.dir/cmake_clean_target.cmake
-        /home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_009ee.dir/link.txt --verbose=1
-        arm-none-eabi-ar qc libcmTC_009ee.a CMakeFiles/cmTC_009ee.dir/CMakeCXXCompilerABI.cpp.obj
-        /usr/bin/arm-none-eabi-ranlib libcmTC_009ee.a
-        gmake[1]: Leaving directory '/home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jeOovi'
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_06187.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+        Linking CXX static library libcmTC_06187.a
+        /home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -P CMakeFiles/cmTC_06187.dir/cmake_clean_target.cmake
+        /home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06187.dir/link.txt --verbose=1
+        arm-none-eabi-ar qc libcmTC_06187.a CMakeFiles/cmTC_06187.dir/CMakeCXXCompilerABI.cpp.obj
+        /usr/bin/arm-none-eabi-ranlib libcmTC_06187.a
+        gmake[1]: Leaving directory '/home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fzDldz'
         
       exitCode: 0
   -
@@ -352,12 +352,12 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: /home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jeOovi]
+        ignore line: [Change Dir: /home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fzDldz]
         ignore line: []
-        ignore line: [Run Build Command(s):/home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_009ee/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_009ee.dir/build.make CMakeFiles/cmTC_009ee.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jeOovi']
-        ignore line: [Building CXX object CMakeFiles/cmTC_009ee.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [/usr/bin/arm-none-eabi-g++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_009ee.dir/CMakeCXXCompilerABI.cpp.obj -c /home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s):/home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_06187/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_06187.dir/build.make CMakeFiles/cmTC_06187.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fzDldz']
+        ignore line: [Building CXX object CMakeFiles/cmTC_06187.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [/usr/bin/arm-none-eabi-g++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_06187.dir/CMakeCXXCompilerABI.cpp.obj -c /home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/arm-none-eabi-g++]
         ignore line: [Target: arm-none-eabi]
@@ -365,8 +365,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 10.3.1 20210621 (release) (15:10.3-2021.07-4) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_009ee.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-        ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/cc1plus -quiet -v -D__USES_INITFINI__ /home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_009ee.dir/CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o /tmp/ccvje0wW.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_06187.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/cc1plus -quiet -v -D__USES_INITFINI__ /home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_06187.dir/CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o /tmp/ccVVZFGr.s]
         ignore line: [GNU C++14 (15:10.3-2021.07-4) version 10.3.1 20210621 (release) (arm-none-eabi)]
         ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -386,18 +386,18 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 4f994585a8ca8864fa1f4d2fb208a0ba]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_009ee.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-        ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_009ee.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccvje0wW.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_06187.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+        ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_06187.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccVVZFGr.s]
         ignore line: [GNU assembler version 2.38 (arm-none-eabi) using BFD version (2.38-3ubuntu1+15build1) 2.38]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_009ee.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-        ignore line: [Linking CXX static library libcmTC_009ee.a]
-        ignore line: [/home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -P CMakeFiles/cmTC_009ee.dir/cmake_clean_target.cmake]
-        ignore line: [/home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_009ee.dir/link.txt --verbose=1]
-        ignore line: [arm-none-eabi-ar qc libcmTC_009ee.a CMakeFiles/cmTC_009ee.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [/usr/bin/arm-none-eabi-ranlib libcmTC_009ee.a]
-        ignore line: [gmake[1]: Leaving directory '/home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jeOovi']
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_06187.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+        ignore line: [Linking CXX static library libcmTC_06187.a]
+        ignore line: [/home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -P CMakeFiles/cmTC_06187.dir/cmake_clean_target.cmake]
+        ignore line: [/home/emile/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06187.dir/link.txt --verbose=1]
+        ignore line: [arm-none-eabi-ar qc libcmTC_06187.a CMakeFiles/cmTC_06187.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [/usr/bin/arm-none-eabi-ranlib libcmTC_06187.a]
+        ignore line: [gmake[1]: Leaving directory '/home/emile/Documents/Code/micro_ros_test/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fzDldz']
         ignore line: []
         ignore line: []
         implicit libs: []

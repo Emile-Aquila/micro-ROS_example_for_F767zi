@@ -49,7 +49,6 @@ else ()
     add_compile_options(-Og -g)
 endif ()
 
-
 set(MROS_UTILS_DIR "/home/emile/Documents/Code/micro_ros_test/micro_ros_stm32cubemx_utils")
 include_directories(
         ${MROS_UTILS_DIR}/microros_static_library/libmicroros/microros_include
@@ -75,7 +74,6 @@ add_link_options(-T ${LINKER_SCRIPT})
 add_executable(${PROJECT_NAME}.elf ${SOURCES} ${LINKER_SCRIPT})
 target_link_libraries(${PROJECT_NAME}.elf ${CMAKE_SOURCE_DIR}/micro_ros_stm32cubemx_utils/microros_static_library/libmicroros/libmicroros.a)
 link_directories(${PROJECT_NAME}.elf ${CMAKE_SOURCE_DIR}/micro_ros_stm32cubemx_utils/microros_static_library/libmicroros/libmicroros.a)
-
 
 set(HEX_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.hex)
 set(BIN_FILE ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.bin)
